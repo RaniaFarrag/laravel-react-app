@@ -68,7 +68,7 @@ function ListTruckRequestComponent  ()  {
                             <td>{new Date(request.date).toLocaleString()}</td>
                             <td>
                                 <span className={`badge ${request.status === 0 ? 'bg-warning' : (request.status === 1 ? 'bg-primary' : 'bg-success')}`}>
-                                    {request.status === 0 ? 'Pending' : (request.status === 1 ? 'In Progress' : 'Completed')}
+                                    {request.status === 0 ? 'Pending' : (request.status === 1 ? 'In Progress' : 'Delivered')}
                                 </span>
                             </td>
                         </tr>

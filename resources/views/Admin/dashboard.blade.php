@@ -76,7 +76,7 @@
                             <td>{{ $request->weight }}</td>
                             <td>{{ $request->size }}</td>
                             <td class="badge {{ $request->status == 0 ? 'bg-warning' : ($request->status == 1 ? 'bg-primary' : 'bg-success')}}">
-                                {{ $request->status == 0 ? 'Pending' : ($request->status == 1 ? 'In Progress' : 'Completed')}}
+                                {{ $request->status == 0 ? 'Pending' : ($request->status == 1 ? 'In Progress' : 'Delivered')}}
                             </td>
                             <td>{{ $request->date }}</td>
                             <td>
