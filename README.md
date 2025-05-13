@@ -9,7 +9,7 @@
 
 ## About Repository
 
-<h4>This Repo is a small app with Apis and Admin dashboard </h4>
+<h4>This Repo is a small app with Apis and Admin panel using laravel 11 & react.js </h4>
 <p>
     User can request a truck and admin can manage all requests from admin panel
 </p>
